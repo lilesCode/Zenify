@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pastelGreen">#e4f6d2</color>
+    <color name="darkGreenBlue">#276567</color>
+    <color name="darkGreen">#44663d</color>
+    <color name="midGreen">#cfddbd</color>
+    <color name="pastelGreen2">#A8E6CF</color> <!-- Verde pastel -->
+    <color name="pastelGreenDark">#749E8F</color> <!-- Verde pastel -->
+    <color name="pastelGreen2_semitransparent">#B3A8E6CF</color> <!-- Verde pastel -->
+    <color name="pastelBlue">#BDE6F6</color> <!-- Azul pastel -->
+    <color name="pastelPink">#FAC9DA</color> <!-- Rosa pastel -->
+    <color name="pastelPurple">#D1C4E9</color> <!-- Morado pastel -->
+    <color name="pastelOrange">#FDBCBC</color> <!-- Naranja pastel -->
+    <color name="pastelYellow">#FFF9C4</color> <!-- Amarillo pastel -->
+    <color name="pastelPeach">#FFDAB9</color> <!-- Durazno pastel -->
+    <color name="pastelLavender">#E1BEE7</color> <!-- Lavanda pastel -->
+    <color name="pastelRed">#FFCDD2</color> <!-- Rojo pastel -->
+    <color name="pastelMint">#C8E6C9</color> <!-- Menta pastel -->
+
+    <!-- Colores del main -->
+    <color name="backgroundMainDark">#70aca4</color>
+    <color name="backgroundMainLight">#ccded7</color>
+
+    <!-- Colores del logo -->
+    <color name="logoBlue">#78c2e9</color>
+    <color name="logoGreenBlue">#8fe0ca</color>
+    <color name="logoTeal">#30706d</color>
+    <color name="logoLightGreen">#daf4d9</color>
+    <color name="logoLightPeach">#fdf0e1</color>
+</resources>

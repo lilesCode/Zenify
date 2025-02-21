@@ -1,0 +1,32 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/fragmentHome"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+    <!--<item
+        android:id="@+id/fragmentConf"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Configuración"
+        app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/fragmentTasks"
+        android:icon="@drawable/baseline_edit_24"
+        android:title="Tareas"
+        android:iconTint="@color/pastelGreen2"
+        app:tint="@color/pastelGreen2"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/fragmentTimer"
+        android:icon="@drawable/baseline_timer_24"
+        android:title="Temporizador"
+        android:iconTint="@color/pastelGreen2"
+        app:tint="@color/pastelGreen2"
+        app:showAsAction="ifRoom" />
+</menu>

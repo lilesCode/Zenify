@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width ="match_parent"
+    android:layout_height ="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textAlignment="center"
+        android:text="Hoy"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center|top"
+        android:padding="16dp"
+        android:background="@color/pastelGreen2_semitransparent"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"/>
+
+
+    <!--Esto ahora mismo es de decoracion luego se implementara la funcionalidad -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_monday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Lu"
+        android:background="@drawable/week_button_background"
+        android:textColor="@android:color/white"
+        android:elevation="10dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_tuesday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ma"
+        android:background="@drawable/week_button_background"
+        android:textColor="@android:color/white" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_wednesday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mi"
+        android:background="@drawable/week_button_background"
+        android:textColor="@android:color/white" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_thursday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ju"
+        android:background="@drawable/week_button_background"
+        android:textColor="@android:color/white" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_friday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vi"
+            android:background="@drawable/week_button_background"
+            android:textColor="@android:color/white" />
+
+        <!-- Botón para sábado -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_saturday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sa"
+            android:background="@drawable/week_button_background"
+            android:textColor="@android:color/white" />
+
+        <!-- Botón para domingo -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sunday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Do"
+            android:background="@drawable/week_button_background"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:layout_marginTop="130dp"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_task"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Añadir tarea"
+        android:src="@drawable/sumar"
+        android:backgroundTint="@color/pastelGreen2"
+        app:tint="@android:color/white" />
+
+</FrameLayout>

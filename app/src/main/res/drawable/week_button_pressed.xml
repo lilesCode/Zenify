@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Color de fondo cuando se presiona el botón -->
+    <solid android:color="@color/pastelGreenDark"/> <!-- Color verde más oscuro para el estado presionado -->
+
+    <!-- Bordes redondeados para hacer el círculo -->
+    <corners android:radius="50dp"/> <!-- Radio de 50dp para hacerlo circular -->
+
+    <!-- Borde cuando está presionado -->
+    <stroke android:color="#000000" android:width="2dp"/>
+
+    <!-- Sombra cuando está presionado -->
+    <elevation android:value="6dp"/>
+</shape>
